@@ -53,9 +53,16 @@ def preguntar_sam(palabra):
 
 
 
+print("hola bienvenido")
 
-mioracion = 'hola como te llamas?'
+print("Escribe algo para iniciar la conversación")
 
-respuets = preguntar_sam(mioracion)
 
-print (respuets)
+veces = 0
+while veces != 7:
+	mioracion = input ('Escribe aqui: ')
+	respuets = preguntar_sam(mioracion)
+	print('')
+	print('')
+	print (respuets)
+	veces = veces + 1

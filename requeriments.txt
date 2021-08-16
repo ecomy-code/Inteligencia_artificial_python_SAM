@@ -1,0 +1,4 @@
+#pip install googletrans==3.1.0a0
+#pip install transformers
+#pip install git+git://github.com/ricardodeazambuja/colab_utils.git #mic
+#pip install torch
